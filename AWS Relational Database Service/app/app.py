@@ -7,8 +7,8 @@ SECRET_NAME = 'rds!db-3d70c27d-2ed6-416b-8f43-bb00ee5630df'
 # The region name is swown in the top right corner of the AWS Console
 REGION_NAME = 'us-east-2'
 USERNSME = 'postgres'
-PASSWORD = '}i>OcrjX>]O{un0W4E?>?em*vspt'
-HOST = 'chrisdbinstance.czwswysc0j24.us-east-2.rds.amazonaws.com'
+PASSWORD = ''
+HOST = ''
 PORT = '5432'
 
 # Global variables to store the connection
