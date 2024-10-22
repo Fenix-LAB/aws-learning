@@ -3,7 +3,7 @@ import json
 from sqlalchemy import create_engine
 
 # The secret name should be the same as the secret name in AWS Secrets Manager (Not in RDS, SECRETS MANAGER!!!)
-SECRET_NAME = 'rds!db-3d70c27d-2ed6-416b-8f43-bb00ee5630df'
+SECRET_NAME = ''
 # The region name is swown in the top right corner of the AWS Console
 REGION_NAME = 'us-east-2'
 USERNSME = 'postgres'
