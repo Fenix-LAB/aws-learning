@@ -41,6 +41,17 @@ sam build --use-container
 sam deploy --guided
 ```
 
+>[NOTE]
+>Build Succeeded
+>Built Artifacts  : .aws-sam\build
+>Built Template   : .aws-sam\build\template.yaml
+>Commands you can use next
+>=========================
+>[*] Validate SAM template: sam validate
+>[*] Invoke Function: sam local invoke
+>[*] Test Function in the Cloud: sam sync --stack-name {{stack-name}} --watch
+>[*] Deploy: sam deploy --guided
+
 The first command will build the source of your application. The second command will package and deploy your application to AWS, with a series of prompts:
 
 * **Stack Name**: The name of the stack to deploy to CloudFormation. This should be unique to your account and region, and a good starting point would be something matching your project name.

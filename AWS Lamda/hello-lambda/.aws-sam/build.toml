@@ -5,6 +5,7 @@ codeuri = "C:\\Users\\Chris\\OneDrive\\Documents\\aws-learning\\AWS Lamda\\hello
 runtime = "python3.9"
 architecture = "x86_64"
 handler = "app.lambda_handler"
+source_hash = "86b5fd62394f96f8d83d2810745c076e6dd7baca777f3927bfc1d25c7b74ed83"
 manifest_hash = ""
 packagetype = "Zip"
 functions = ["HelloWorldFunction"]
