@@ -16,6 +16,10 @@ lint = true
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
 resolve_s3 = true
+s3_prefix = "hello-lambda"
+region = "us-east-1"
+profile = "chris-profile"
+image_repositories = []
 
 [default.package.parameters]
 resolve_s3 = true

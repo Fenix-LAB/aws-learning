@@ -106,6 +106,11 @@ Add more sessions:
 aws configure sso-session # I think this is the command but I'm not sure
 ```
 
+# Relogin (Common use)
+```bash
+aws sso login --profile chris-profile
+```
+
 # AWS SAM CLI
 The AWS Serverless Application Model (SAM) is an open-source framework for building serverless applications. It provides shorthand syntax to express functions, APIs, databases, and event source mappings. With just a few lines per resource, you can define the application you want and model it using YAML. During deployment, SAM transforms and expands the SAM syntax into AWS CloudFormation syntax, enabling you to build serverless applications faster.
 

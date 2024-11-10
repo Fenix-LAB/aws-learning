@@ -17,7 +17,29 @@ This is a simple example of how to create a AWS Lambda function usiin IaC (Infra
 8. In `Would you like to set Structured Logging in JSON format on your Lambda functions? ` type `N` and press `Enter`
 9. Ingress the project name and press `Enter`
 
+10. Build the project
+```bash
+hello-lambda$ sam build --use-container
+```
 
+11. Test the function
+```bash
+hello-lambda$ sam local invoke HelloWorldFunction --event events/event.json
+```
+
+12. Run the API locally
+```bash
+hello-lambda$ sam local start-api
+hello-lambda$ curl http://localhost:3000/hello
+```
+
+13. Deploy the project
+```bash
+hello-lambda$ sam deploy --guided --profile chris-profile
+```
+
+14. After the deployment, you will see a message like the following
+>[!NOTE]
 note:
 >[!NOTE]
 > Commands you can use next
